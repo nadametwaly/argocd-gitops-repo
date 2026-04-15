@@ -3,7 +3,7 @@ kind: Ingress
 metadata:
   name: react-app
 spec:
-  ingressClassName: traefik
+  ingressClassName: nginx
   rules:
   - host: route-demo.example.com
     http:
