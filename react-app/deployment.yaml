@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: react-app
-        image: ghcr.io/nadametwaly/react-app-cicd:latest
+        image: ghcr.io/nadametwaly/react-app-cicd:405985c8721a7455ffe77c80e343584a9427f849
         ports:
         - containerPort: 80
